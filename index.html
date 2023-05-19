@@ -4,50 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ac1</title>
+    <title>Ex2</title>
 </head>
 <body>
-    
-    <header>
-        <h1>Numeros para a forma de pagamento</h1>
-    </header>
-    <section>
-        <ol>
-            <li>Venda a vista - desconto de 10%</li>
-            <li>Venda a Prazo 30 dias - desconto de 5%</li>
-            <li>Venda a Prazo 60 dias- mesmo preco</li>
-            <li>Venda a Prazo 90 dias - acrécimo de 5%</li>
-            <li>Venda com cartão de débito - desconto de 8%</li>
-            <li>Venda com cartão de crédito - desconto de 7%</li>
-        </ol>
-
-    </section>
 
     <main>
-        <ul>
-
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Idade</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>De 05 a 10</td>
+                    <td>infantil</td>
+                </tr>
+                <tr>
+                    <td>De 11 a 15</td>
+                    <td>Juvenil</td>
+                </tr>
+                <tr>
+                    <td>De 16 a 20</td>
+                    <td>Junior</td>
+                </tr>
+                <tr>
+                    <td>De 21 a 25</td>
+                    <td>profissional</td>
+                </tr>
+            </tbody>
+        </table>
 
         <div>
-            <p>Valor da venda:</p>
-            <input type="number" id="valor-venda">
+            <p>idade do jogador:</p>
+            <input type="number" id="idade-jogador">
         </div>
-        
-        <div>
-            <p>Condicao de venda:</p>
-            <input type="number" id="tipo-venda">
-        </div>
 
         <div>
-            <input type="button" value="Calcular" onclick="venda()">
+            <input type="button" value="ver classificacao" onclick="Classifica()">
         </div>
 
         <div>
             <p id="res"></p>
         </div>
     </main>
-
-
-    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="script2.js"></script>
 </body>
 </html>
